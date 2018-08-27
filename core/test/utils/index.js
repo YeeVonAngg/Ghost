@@ -1057,8 +1057,7 @@ module.exports = {
 
             init: function () {
                 const routes = settingsService.get('routes');
-
-                const collectionRouter = new routingService.CollectionRouter('/', routes.collections['/']);
+                
                 const tagRouter = new routingService.TaxonomyRouter('tag', routes.taxonomies.tag);
                 const authorRouter = new routingService.TaxonomyRouter('author', routes.taxonomies.author);
 
