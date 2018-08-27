@@ -50,7 +50,6 @@ var Promise = require('bluebird'),
     createPost,
     login,
     startGhost,
-    configureGhost,
 
     initFixtures,
     initData,
