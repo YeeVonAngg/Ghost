@@ -91,7 +91,7 @@ fixtures = {
     },
 
     insertMultiAuthorPosts: function insertMultiAuthorPosts(max) {
-        let i, j, k = 0,
+        let i, k = 0,
             posts = [];
 
         max = max || 50;
@@ -1056,7 +1056,7 @@ module.exports = {
 
             init: function () {
                 const routes = settingsService.get('routes');
-
+                
                 const collectionRouter = new routingService.CollectionRouter('/', routes.collections['/']);
                 const tagRouter = new routingService.TaxonomyRouter('tag', routes.taxonomies.tag);
                 const authorRouter = new routingService.TaxonomyRouter('author', routes.taxonomies.author);
