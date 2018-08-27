@@ -91,7 +91,7 @@ fixtures = {
     },
 
     insertMultiAuthorPosts: function insertMultiAuthorPosts(max) {
-        let i, j, k = 0,
+        let i, k = 0,
             posts = [];
 
         max = max || 50;
