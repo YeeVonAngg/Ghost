@@ -145,7 +145,7 @@
                 "help": "Please make sure this is a valid url before restarting"
             },
             "urlCannotContainGhostSubdir": {
-                "error": "ghost subdirectory not allowed",
+                "error": "Ghost subdirectory not allowed",
                 "description": "Your site url in config.js cannot contain a subdirectory called ghost.",
                 "help": "Please rename the subdirectory before restarting"
             },
