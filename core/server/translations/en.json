@@ -256,7 +256,7 @@
             },
             "base": {
                 "index": {
-                    "missingContext": "missing context"
+                    "missingContext": "Missing context"
                 },
                 "token": {
                     "noUserFound": "No user found",
